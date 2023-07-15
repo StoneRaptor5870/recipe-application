@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "default": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "nischay",
+  "license": "ISC",
+  "dependencies": {
+    "browserslist": "^4.21.9",
+    "fracty": "^1.0.11"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}
